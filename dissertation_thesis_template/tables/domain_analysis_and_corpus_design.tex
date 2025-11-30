@@ -1,0 +1,189 @@
+\begin{longtable}[c]{ |p{8cm}|p{8cm}|p{8cm}| }
+    \captionsetup{justification = raggedright, singlelinecheck = false}
+    \caption{Domain analysis and corpus design}
+    \label{tab:domain_analysis_and_corpus_design1}
+    \\ \hline
+    \textbf{\makebox[8cm][c]{Describe the Domain}} & \textbf{\makebox[8cm][c]{Operationalise the Domain}} & \textbf{\makebox[8cm][c]{Plan the Sample}} \\ \hline
+    \endfirsthead
+    \hline
+    \textbf{\makebox[8cm][c]{Describe the Domain}} & \textbf{\makebox[8cm][c]{Operationalise the Domain}} & \textbf{\makebox[8cm][c]{Plan the Sample}} \\ \hline
+    \endhead
+    \hline
+    \multicolumn{3}{r}{Continued on next page} \\
+    \endfoot
+    \endlastfoot
+    \textbf{Methods}
+    \begin{itemize}
+        \item Researcher's experience
+        \item Previous scholarly research
+        \item Web/AI-based searches
+    \end{itemize}
+    \textit{Research articles}
+    \begin{itemize}
+        \item Taxonomies of academic disciplines (E.g. \href{https://www.nsf.gov/}{NSF}; \href{https://www.gov.br/cnpq/pt-br}{CNPq})
+        \item Standards of scientific publication (E.g. Academic Journals' standards)
+    \end{itemize}
+    \textit{AI-generated texts}
+    \begin{itemize}
+        \item AI research organisations
+    \end{itemize}
+     &
+    \textbf{Boundaries}
+    \begin{itemize}
+        \item Academic discipline
+        \item English-as-an-International-Language: English-medium quality journals
+        \item English-as-a-Regional-Language: \href{https://preprints.scielo.org/index.php/scielo}{SciELO preprint archive}
+        \item Functional section schema
+        \item AI authorship
+        \begin{itemize}
+            \item LLM model and version: ChatGPT 4.1
+            \item Editing assistant
+        \end{itemize}
+        \item Time of publication: Before the advent of ChatGPT on 30\textsuperscript{th} November 2022
+    \end{itemize}
+     &
+    \textbf{Sampling unit}
+    \begin{itemize}
+        \item One paragraph, no shorter than 10 words
+    \end{itemize}
+     \\
+    \textbf{Boundaries}
+    \begin{itemize}
+        \item Written academic register
+        \item Research-oriented
+        \item Evidence-based
+        \item Peer-reviewed
+    \end{itemize}
+     &
+    \textbf{Strata}
+    \begin{itemize}
+        \item \href{https://www.gov.br/cnpq/pt-br}{CNPq}'s academic discipline taxonomy: Exact and Earth Sciences; Biological Sciences; Engineering; Health Sciences; Agricultural Sciences; Applied Social Sciences; Human Sciences; Linguistics, Literature, and Arts
+        \item Section schemata
+        \begin{itemize}
+            \item Functional
+            \begin{itemize}
+                \item Abstract
+                \item Introduction
+                \item Literature Review
+                \item Methodology
+                \item Results
+                \item Discussion
+                \item Conclusion
+                \item Acknowledgements
+                \item Comments to the Editor
+            \end{itemize}
+            \item Topical: Expressed as a combination of terms of the functional schema. E.g.:
+            \begin{itemize}
+                \item Abstract
+                \item Introduction, Literature Review
+                \item Methodology
+                \item Results
+                \item Discussion, Conclusion
+                \item Acknowledgements
+            \end{itemize}
+        \end{itemize}
+        \item Authorship
+        \begin{itemize}
+            \item Human-authored
+            \item AI-revised
+        \end{itemize}
+    \end{itemize}
+
+     &
+    \textbf{Sampling methods}
+    \begin{itemize}
+        \item Balanced sample across
+        \begin{itemize}
+            \item Academic discipline
+            \item Section
+        \end{itemize}
+        \item Procedure for the academic discipline stratum
+        \begin{enumerate}
+            \item Rank the disciplines by the number of paragraphs
+            \item Balance the corpus according to the discipline that:
+            \begin{itemize}
+                \item contributes the least with paragraphs
+                \item maximises the corpus' size
+                \item causes the least reduction in the number of disciplines
+            \end{itemize}
+            \item Exclude the disciplines that are below the discipline of the previous step
+        \end{enumerate}
+        \item Procedure for the section stratum
+        \begin{enumerate}
+            \item Identify the patterns of sections that are common to all of the disciplines
+            \item Exclude the diverging patterns
+        \end{enumerate}
+    \end{itemize}
+     \\
+    \textbf{Categories}
+    \begin{itemize}
+        \item Mode: Written
+        \item English language variety
+        \begin{itemize}
+            \item English-as-an-International-Language
+            \item English-as-a-Regional-Language
+        \end{itemize}
+        \item Stage of review
+        \begin{itemize}
+            \item Preprint
+            \item Published
+        \end{itemize}
+        \item Authorship
+        \begin{itemize}
+            \item Human-authored
+            \item Synthetic (AI-generated)
+            \begin{itemize}
+                \item AI LLM model and version
+                \item Nature of AI application: Editing assistant
+            \end{itemize}
+        \end{itemize}
+        \item Standards of scientific publication
+        \begin{itemize}
+            \item Particular to each academic discipline
+            \item Particular to each publication vehicle
+        \end{itemize}
+        \item Organisation
+        \begin{itemize}
+            \item Functional (canonical) section schema
+            \item Topical section schema
+        \end{itemize}
+    \end{itemize}
+     &
+    
+     &
+    
+     \\ \hline
+    \caption*{Source: \textcite{egbertDomainConsiderations2022}}
+\end{longtable}
+
+\begin{longtable}[c]{ |p{8cm}|p{8cm}| }
+    \captionsetup{justification = raggedright, singlelinecheck = false}
+    \caption{Evaluation}
+    \label{tab:domain_analysis_and_corpus_design2}
+    \\ \hline
+    \textbf{\makebox[8cm][c]{Domain $\leftarrow$ Operational Domain}} & \textbf{\makebox[8cm][c]{Operational Domain $\leftarrow$ Corpus}} \\ \hline
+    \endfirsthead
+    \hline
+    \textbf{\makebox[8cm][c]{Domain $\leftarrow$ Operational Domain}} & \textbf{\makebox[8cm][c]{Operational Domain $\leftarrow$ Corpus}} \\ \hline
+    \endhead
+    \hline
+    \multicolumn{2}{r}{Continued on next page} \\
+    \endfoot
+    \endlastfoot
+    \begin{itemize}
+        \item Taxonomies of academic disciplines other than \href{https://www.gov.br/cnpq/pt-br}{CNPq}'s are not represented
+        \item Articles organised according to the topical section schema may not be fully represented by the combination of terms of the functional schema
+        \item LLM models other than ChatGPT 4.1 are not considered
+        \item English-as-a-Regional-Language articles other than the ones sourced from the \href{https://preprints.scielo.org/index.php/scielo}{SciELO preprint archive} are not considered
+    \end{itemize}
+     &
+    \begin{itemize}
+        \item Paragraphs shorter than 10 words are not considered
+        \item Titles, subtitles, headers and footers are not considered
+        \item Elements such as tables, figures, formulas, references and appendices are not considered
+        \item The Engineering, Exact and Earth Sciences, and Agricultural Sciences disciplines are excluded
+        \item Articles with patterns of sections not common to all disciplines are not considered
+    \end{itemize}
+     \\ \hline
+    \caption*{Source: \textcite{egbertDomainConsiderations2022}}
+\end{longtable}

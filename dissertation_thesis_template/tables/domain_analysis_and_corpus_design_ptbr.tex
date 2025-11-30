@@ -1,0 +1,189 @@
+\begin{longtable}[c]{ |p{8cm}|p{8cm}|p{8cm}| }
+    \captionsetup{justification = raggedright, singlelinecheck = false}
+    \caption{Análise de domínio e desenho de corpus}
+    \label{tab:domain_analysis_and_corpus_design1_ptbr}
+    \\ \hline
+    \textbf{\makebox[8cm][c]{Descrição do Domínio}} & \textbf{\makebox[8cm][c]{Operacionalização do Domínio}} & \textbf{\makebox[8cm][c]{Planejamento da Amostra}} \\ \hline
+    \endfirsthead
+    \hline
+    \textbf{\makebox[8cm][c]{Descrição do Domínio}} & \textbf{\makebox[8cm][c]{Operacionalização do Domínio}} & \textbf{\makebox[8cm][c]{Planejamento da Amostra}} \\ \hline
+    \endhead
+    \hline
+    \multicolumn{3}{r}{Continua na próxima página} \\
+    \endfoot
+    \endlastfoot
+    \textbf{Métodos}
+    \begin{itemize}
+        \item Experiência do pesquisador
+        \item Pesquisas acadêmicas anteriores
+        \item Buscas baseadas na Web/IA
+    \end{itemize}
+    \textit{Artigos de pesquisa}
+    \begin{itemize}
+        \item Taxonomias de disciplinas acadêmicas (Ex.: \href{https://www.nsf.gov/}{NSF}; \href{https://www.gov.br/cnpq/pt-br}{CNPq})
+        \item Normas de publicação científica (Ex.: normas de periódicos acadêmicos)
+    \end{itemize}
+    \textit{Textos gerados por IA}
+    \begin{itemize}
+        \item Organizações de pesquisa em IA
+    \end{itemize}
+     &
+    \textbf{Fronteiras}
+    \begin{itemize}
+        \item Disciplina acadêmica
+        \item Inglês-como-Língua-Internacional: Periódicos de qualidade em inglês
+        \item Inglês-como-Língua-Regional: \href{https://preprints.scielo.org/index.php/scielo}{Repositório SciELO Pré-prints}
+        \item Esquema funcional de seções
+        \item Autoria por IA
+        \begin{itemize}
+            \item Modelo e versão de LLM: ChatGPT 4.1
+            \item Assistente de escrita
+        \end{itemize}
+        \item Data de publicação: Antes do advento do ChatGPT, em 30 de novembro de 2022
+    \end{itemize}
+     &
+    \textbf{Unidade de amostragem}
+    \begin{itemize}
+        \item Um parágrafo, com no mínimo 10 palavras
+    \end{itemize}
+     \\
+    \textbf{Fronteiras}
+    \begin{itemize}
+        \item Registro acadêmico escrito
+        \item Voltado para pesquisa
+        \item Baseado em evidências
+        \item Revisado por pares
+    \end{itemize}
+     &
+    \textbf{Estratos}
+    \begin{itemize}
+        \item Taxonomia de disciplinas acadêmicas do \href{https://www.gov.br/cnpq/pt-br}{CNPq}: Ciências Exatas e da Terra; Ciências Biológicas; Engenharias; Ciências da Saúde; Ciências Agrárias; Ciências Sociais Aplicadas; Ciências Humanas; Linguística, Letras, e Artes
+        \item Esquemas de seções
+        \begin{itemize}
+            \item Funcional (em língua inglesa)
+            \begin{itemize}
+                \item Abstract
+                \item Introduction
+                \item Literature Review
+                \item Methodology
+                \item Results
+                \item Discussion
+                \item Conclusion
+                \item Acknowledgements
+                \item Comments to the Editor
+            \end{itemize}
+            \item Temático: Expresso como uma combinação de termos do esquema funcional (em língua inglesa). Ex.:
+            \begin{itemize}
+                \item Abstract
+                \item Introduction, Literature Review
+                \item Methodology
+                \item Results
+                \item Discussion, Conclusion
+                \item Acknowledgements
+            \end{itemize}
+        \end{itemize}
+        \item Autoria
+        \begin{itemize}
+            \item Produzido por humanos
+            \item Revisado por IA
+        \end{itemize}
+    \end{itemize}
+
+     &
+    \textbf{Métodos de amostragem}
+    \begin{itemize}
+        \item Amostra balanceada entre
+        \begin{itemize}
+            \item Disciplinas acadêmicas
+            \item Seção
+        \end{itemize}
+        \item Procedimento para o estrato de disciplina acadêmica
+        \begin{enumerate}
+            \item Classifique as disciplinas pelo número de parágrafos
+            \item Balanceie o corpus de acordo com a disciplina que:
+            \begin{itemize}
+                \item contribui com menos parágrafos
+                \item maximiza o tamanho do corpus
+                \item causa a menor redução no número de disciplinas
+            \end{itemize}
+            \item Exclua as disciplinas que estão abaixo da disciplina do passo anterior
+        \end{enumerate}
+        \item Procedimento para o estrato de seção
+        \begin{enumerate}
+            \item Identifique os padrões de seções que são comuns a todas as disciplinas
+            \item Exclua os padrões divergentes
+        \end{enumerate}
+    \end{itemize}
+     \\
+    \textbf{Categorias}
+    \begin{itemize}
+        \item Modo: Escrito
+        \item Variedade da língua inglesa
+        \begin{itemize}
+            \item Inglês-como-Língua-Internacional
+            \item Inglês-como-Língua-Regional
+        \end{itemize}
+        \item Estágio de revisão
+        \begin{itemize}
+            \item Pré-print
+            \item Publicado
+        \end{itemize}
+        \item Autoria
+        \begin{itemize}
+            \item Produzido por humanos
+            \item Sintético (Gerado por IA)
+            \begin{itemize}
+                \item Modelo e versão de LLM de IA
+                \item Natureza da aplicação de IA: Assistente de escrita
+            \end{itemize}
+        \end{itemize}
+        \item Normas de publicação científica
+        \begin{itemize}
+            \item Particular a cada disciplina acadêmica
+            \item Particular a cada veículo de publicação
+        \end{itemize}
+        \item Organização
+        \begin{itemize}
+            \item Esquema funcional (canônico) de seções
+            \item Esquema temático de seções
+        \end{itemize}
+    \end{itemize}
+     &
+    
+     &
+    
+     \\ \hline
+    \caption*{Fonte: \textcite{egbertDomainConsiderations2022}}
+\end{longtable}
+
+\begin{longtable}[c]{ |p{8cm}|p{8cm}| }
+    \captionsetup{justification = raggedright, singlelinecheck = false}
+    \caption{Avaliação}
+    \label{tab:domain_analysis_and_corpus_design2_ptbr}
+    \\ \hline
+    \textbf{\makebox[8cm][c]{Domínio $\leftarrow$ Domínio Operacional}} & \textbf{\makebox[8cm][c]{Domínio Operacional $\leftarrow$ Corpus}} \\ \hline
+    \endfirsthead
+    \hline
+    \textbf{\makebox[8cm][c]{Domínio $\leftarrow$ Domínio Operacional}} & \textbf{\makebox[8cm][c]{Domínio Operacional $\leftarrow$ Corpus}} \\ \hline
+    \endhead
+    \hline
+    \multicolumn{2}{r}{Continua na próxima página} \\
+    \endfoot
+    \endlastfoot
+    \begin{itemize}
+        \item Taxonomias de disciplinas acadêmicas diferentes da do \href{https://www.gov.br/cnpq/pt-br}{CNPq} não estão representadas
+        \item Artigos organizados de acordo com o esquema temático de seções podem não ser totalmente representados pela combinação de termos do esquema funcional
+        \item Modelos de LLM diferentes do ChatGPT 4.1 não são considerados
+        \item Artigos em Inglês-como-Língua-Regional que não sejam provenientes do \href{https://preprints.scielo.org/index.php/scielo}{repositório de pré-prints da SciELO} não são considerados
+    \end{itemize}
+     &
+    \begin{itemize}
+        \item Parágrafos com menos de 10 palavras não são considerados
+        \item Títulos, subtítulos, cabeçalhos e rodapés não são considerados
+        \item Elementos como tabelas, figuras, fórmulas, referências e apêndices não são considerados
+        \item As disciplinas de Engenharias, Ciências Exatas e da Terra, e Ciências Agrárias estão excluídas
+        \item Artigos com padrões de seções não comuns a todas as disciplinas não são considerados
+    \end{itemize}
+     \\ \hline
+    \caption*{Fonte: \textcite{egbertDomainConsiderations2022}}
+\end{longtable}
